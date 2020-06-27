@@ -1,39 +1,106 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>MusicDot</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <!-- <link rel="stylesheet" href="css/estilos.css" /> -->
   </head>
 
   <body>
-    <h1>Music Dot</h1>
+    <header class="cabecalho">
+      <a href="index.html">
+        <img
+          class="cabecalho__logo"
+          src="img/musicdot-logo-light.svg"
+          title="Ir para a página inicial da MusicDot"
+          alt="MusicDot"
+        />
+      </a>
 
-    <h2>Bem vindo à music Dot</h2>
+      <nav>
+        <ul class="cabecalho__menu">
+          <li class="cabecalho__item-menu"><a href="sobre.html#contato">Contato</a></li>
+          <li class="cabecalho__item-menu"><a href="#">Entrar</a></li>
+          <li class="cabecalho__item-menu cabecalho__item-menu--matricular"><a href="#">Matricule-se</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <ol>
-      <li>Veja nossos cursos</li>
-      <li>Assine nossos planos</li>
-      <li>Mais alguma coisa?</li>
-      <li>Conheça nossas promoções</li>
-    </ol>
+    <main>
+      <p>Conteúdo Principal</p>
+    </main>
 
-    <p>
-      Aqui apenas estou colocando um texto explicando pra vocês como funciona o
-      musicDot. Meu texto em <strong> negrito </strong>
-    </p>
-    <style>
-        p {
-            color: red;
-            background-color: royalblue;
-        }
-    </style>
+    <footer class="rodape">
+      <section>
+        <img class="rodape__logo" src="img/logo.svg" alt="logo da musicDot">
+          <p>
+            AOVS Sistemas de Informática S.A
+            <br>
+            Rua Vergueiro, 3185, 8º andar
+            <br>
+            Vila Mariana
+            <br>
+            São Paulo - SP
+          </p>
 
-    <figure>
-      <img
-        src="img/musicdot-logo-header.svg"
-        alt="Esta é a imagem do logo da musicDot"
-      />
-      <figcaption>Este é a imagem do logo da musicDot</figcaption>
-    </figure>
+          <ul class="rodape__lista-midias-sociais">
+            <li class="rodape__item-midias-sociais">
+              <a href="https://www.facebook.com/musicdotonline">
+              <img src="img/footer-icone-facebook.svg" alt="MusicDot no Facebook">
+              </a>
+            </li>
+            
+            <li class="rodape__item-midias-sociais">
+              <a href="https://www.youtube.com/user/musicdotonline">
+              <img src="img/footer-icone-youtube.svg" alt="MusicDot no YouTube">
+              </a>
+            </li>
+            
+            <li class="rodape__item-midias-sociais">
+              <a href="https://www.instagram.com/musicdotonline/">
+              <img src="img/footer-icone-instagram.svg" alt="Instagram">
+              </a>
+            </li>
+            </ul>
+      </section>
+
+      <section>
+        <h2 class="rodape__titulo"> Cursos da MusicDot </h2>
+          <nav>
+            <ul>
+              <li class="rodape__item-lista"><a href="#">Cursos de Teclado & Piano</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Violão/Guitarra</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Baixo</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Bateria</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Percussão</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Canto</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Áudio</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Teoria</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Sopro</a></li>
+              <li class="rodape__item-lista"><a href="#">Cursos de Cordas</a></li>
+            </ul>
+          </nav>
+      </section>
+
+      <section>
+        <h2 class="rodape__titulo"> MusicDot </h2>
+          <nav>
+            <ul>
+              <li class="rodape__item-lista"><a href="#">Apostila</a></li>
+              <li class="rodape__item-lista"><a href="#">E-book</a></li>
+              <li class="rodape__item-lista"><a href="#">Login</a></li>
+              <li class="rodape__item-lista"><a href="#">Matricule-se</a></li>
+              <li class="rodape__item-lista"><a href="#">Perguntas frequentes</a></li>
+              <li class="rodape__item-lista"><a href="#">Para Escolas</a></li>
+              <li class="rodape__item-lista"><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+      </section>
+    </footer>
   </body>
 </html>
